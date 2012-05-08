@@ -8,6 +8,7 @@ class Controller {
         
         $this->view = new View();
         $this->config = new Config();
+        $this->layout = new Layout();
     }
     
     public static function &get_instance() {

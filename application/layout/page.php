@@ -15,11 +15,11 @@
 
   <body>
 
-<?php $this->show_navbar(); ?>
+<?php $this->view->show_navbar(); ?>
 
     <div class="container">
 
-    <?php $this->show_page(); ?>
+    <?php $this->view->show_page(); ?>
 
     </div> <!-- /container -->
   </body>
