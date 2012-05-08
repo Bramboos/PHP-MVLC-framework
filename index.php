@@ -1,6 +1,6 @@
 <?php 
-    define("SYSTEM_PATH", "system");
-    define("APPLICATION_PATH", "application");
+    define("SYSTEM_PATH", "/var/www/MVLC/system");
+    define("APPLICATION_PATH", "/var/www/MVLC/application");
 
     define("ENVIRONMENT", "development");
     

@@ -11,21 +11,21 @@ class View {
     
     function render($name = false) {
         $this->_name = $name;
-        include 'app/layout/page.php';
+        include APPLICATION_PATH.'/layout/page.php';
     }
     
     function show_page() {
         if(file_exists('app/views/'.$this->_name.'.php')) {
-            include 'app/views/'.$this->_name.'.php';
+            include APPLICATION_PATH.'/views/'.$this->_name.'.php';
         }
         else
         {
-            include 'app/views/404.php';
+            include APPLICATION_PATH.'/views/404.php';
         }
     }
     
     function show_navbar() {
-        include 'app/layout/navbar.php';
+        include APPLICATION_PATH.'/layout/navbar.php';
     }
     
     function show_404() {
