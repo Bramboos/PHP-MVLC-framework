@@ -4,12 +4,9 @@
 return array(
 
 	// Error handling
-	'error' => array(
-		'ignore' => array(E_NOTICE, E_USER_NOTICE, E_DEPRECATED, E_USER_DEPRECATED),
-		'detail' => false,
-		'log' => false
-	),
-
-	// Show database profile
-	'debug' => false
+	'application' => array(
+		'error_ignore' => array(E_NOTICE, E_USER_NOTICE, E_DEPRECATED, E_USER_DEPRECATED),
+		'error_detail' => false,
+		'error_log' => false,
+	    'debug' => false
 );

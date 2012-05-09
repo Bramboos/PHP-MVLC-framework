@@ -3,12 +3,13 @@ class Controller {
 
     private static $instance;
     
+    public $config;
+    public $view;
+    
     function __construct() {
-        self::$instance =& $this;
-        
-        $this->view = new View();
         $this->config = new Config();
-        $this->layout = new Layout();
+        $this->view = new View();
+        self::$instance =& $this;
     }
     
     public static function &get_instance() {

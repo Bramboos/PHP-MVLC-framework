@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title><?=$this->title?></title>
+    <title>404 - Not Found</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -20,7 +20,7 @@
     <?php $this->show_navbar(); ?>
 
     <div class="container">
-    <?php $this->show_page(); ?>
+        Not FOUND
     </div>
     
     <?php $this->show_footer(); ?>
