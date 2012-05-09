@@ -19,4 +19,9 @@ class Controller {
     function load_model($name) {
         $this->loader->load_class($name, 'models');
     }
+    
+    public function __call($name, $arguments)
+    {
+        $this->view->render('404');
+    }
 }

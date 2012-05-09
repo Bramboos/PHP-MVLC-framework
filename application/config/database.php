@@ -8,6 +8,7 @@ return array(
 		'username'  => 'root',
 		'password'  => '',
 		'name'      => '',
-		'collation' => 'utf8_general_ci'
+		'collation' => 'utf8_general_ci',
+		'prefix'    => 'db_'
 	)
 );
